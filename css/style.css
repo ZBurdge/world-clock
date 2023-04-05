@@ -27,11 +27,11 @@ h1 {
 }
 h1:hover {
   transform: scale(1.5);
-  color: black;
 }
 
 a {
   color: #708098;
+  text-decoration-line: none;
 }
 
 a:visited {
