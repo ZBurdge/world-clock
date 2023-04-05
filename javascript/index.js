@@ -1,12 +1,12 @@
 function updateTime() {
-  let losAngelesElement = document.querySelector("#los-angeles");
-  if (losAngelesElement) {
-    let losAngelesDateElement = losAngelesElement.querySelector(".date");
-    let losAngelesTimeElement = losAngelesElement.querySelector(".time");
-    let losAngelesTime = moment().tz("America/Los_Angeles");
+  let luxorElement = document.querySelector("#luxor");
+  if (luxorElement) {
+    let luxorDateElement = luxorElement.querySelector(".date");
+    let luxorTimeElement = luxorElement.querySelector(".time");
+    let luxorTime = moment().tz("Egypt");
 
-    losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
-    losAngelesTimeElement.innerHTML = losAngelesTime.format(
+    luxorDateElement.innerHTML = luxorTime.format("MMMM Do YYYY");
+    luxorTimeElement.innerHTML = luxorTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
@@ -19,6 +19,17 @@ function updateTime() {
 
     sydneyDateElement.innerHTML = sydneyTime.format("MMMM Do YYYY");
     sydneyTimeElement.innerHTML = sydneyTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+  let istanbulElement = document.querySelector("#istanbul");
+  if (istanbulElement) {
+    let istanbulDateElement = istanbulElement.querySelector(".date");
+    let istanbulTimeElement = istanbulElement.querySelector(".time");
+    let istanbulTime = moment().tz("Turkey");
+
+    istanbulDateElement.innerHTML = istanbulTime.format("MMMM Do YYYY");
+    istanbulTimeElement.innerHTML = istanbulTime.format(
       "h:mm:ss [<small>]A[</small>]"
     );
   }
