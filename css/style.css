@@ -1,5 +1,14 @@
 body {
-  background-color: lavenderblush;
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -7,13 +16,26 @@ body {
   margin: 60px auto;
   background: white;
   padding: 30px;
-  box-shadow: 0px 7px 29px 0px pink;
+  box-shadow: 0px 7px 29px 0px #eacbd6;
   border-radius: 10px;
 }
 
 h1 {
   text-align: center;
   font-size: 36px;
+  transition: all 200ms ease-in-out;
+}
+h1:hover {
+  transform: scale(1.5);
+  color: black;
+}
+
+a {
+  color: #708098;
+}
+
+a:visited {
+  color: #a2588f;
 }
 
 select {
@@ -21,6 +43,7 @@ select {
   padding: 10px;
   border-radius: 5px;
   font-size: 18px;
+  background-color: #d8e0ed;
 }
 h2 {
   margin: 0 0 5px;
