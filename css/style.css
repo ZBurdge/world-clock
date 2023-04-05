@@ -18,6 +18,7 @@ body {
   padding: 30px;
   box-shadow: 0px 7px 29px 0px #eacbd6;
   border-radius: 10px;
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -44,10 +45,11 @@ select {
   border-radius: 5px;
   font-size: 18px;
   background-color: #d8e0ed;
+  font-family: "Playfair Display", serif;
 }
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 32px;
 }
 .date {
   opacity: 0.7;
