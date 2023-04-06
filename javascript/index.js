@@ -55,6 +55,9 @@ function updateCity(event) {
           "h:mm:ss "
         )}<small>${cityTime.format("A")}</small></div>
             </div>`;
+  setTimeout(() => {
+    updateCity(event);
+  }, 1000);
 }
 
 let citiesSelect = document.querySelector("#city");
