@@ -18,12 +18,12 @@ body {
   padding: 30px;
   box-shadow: 0px 7px 29px 0px #eacbd6;
   border-radius: 10px;
-  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
 }
 
 h1 {
   text-align: center;
-  font-size: 36px;
+  font-size: 42px;
   transition: all 200ms ease-in-out;
 }
 h1:hover {
@@ -49,7 +49,7 @@ select {
 }
 h2 {
   margin: 0 0 5px;
-  font-size: 32px;
+  font-size: 36px;
 }
 .date {
   opacity: 0.7;
@@ -69,7 +69,6 @@ h2 {
 
 .time {
   font-size: 48px;
-  font-weight: bold;
 }
 
 .time small {
